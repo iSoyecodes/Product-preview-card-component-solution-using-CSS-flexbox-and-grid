@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Global Classes */
+h1{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color:hsl(228, 12%, 48%);
+    font-weight: 700;
+}
+p {
+    color: hsl(228, 12%, 48%) ;
+}
+
+a { 
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 72px;
+    font-size: 14px;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+/* X Global Classes */
+
+/* Card */
+.container {
+    margin: 30px auto;
+    padding: 0 10px ;
+    
+}
+
+.card {
+    max-width: 601px;
+    display: flex;
+    justify-content: center; 
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imgb  {
+    width: 50%;
+}
+
+.imgb img {
+    max-width: 100%;
+    display: inherit;
+} 
+
+.content {
+    width: 50%;
+    height: 392px;
+    padding: 25px 30px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.content .text h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+.content .text p{
+    padding: 17px 0;
+    line-height: 1.48;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.price h2 {
+    font-size: 34px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif; ;
+}
+
+.price h3 {
+    font-size: 14px;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+}
+
+div.button {
+    flex-grow: 1;
+    align-self: center;
+    padding-top: .94rem;
+}
+
+button img {
+    display: inline;
+    width: 25px;
+    height: 14px;
+    padding-right: 10px;
+}
+
+.button button:hover {
+    background-color: hsl(158, 36%, 25%) ; 
+}
+
+
+/* X Card */
+
+
+
